@@ -26,9 +26,9 @@ To use this starter you need an Airtable base with two table configured like so:
 
 After these tables are setup you need to add Airtable API keys to the project in the .env file. You can find these values in your Airtable settings/API documentation.
 
-`# Airtable API Key`
-`AIRTABLE_API_KEY="###"`
-`AIRTABLE_BASE_ID="###"`
+`# Airtable API Key`\
+`AIRTABLE_API_KEY="###"`\
+`AIRTABLE_BASE_ID="###"`\
 
 ### Running Locally
 
