@@ -9,7 +9,7 @@ export const Layout = ({ children, signup = true, share = false }) => {
         <div className="container text-center">          
           <div className="relative">
             <Link to="/" className="inline-block">
-              <img alt="Logo" src="/d20.png" />
+              <img alt="Logo" src="/airtable-logo.png" />
             </Link>
           </div>
           <h3 className="text-2xl lg:text-4xl font-bold text-blue-600 tracking-tight">

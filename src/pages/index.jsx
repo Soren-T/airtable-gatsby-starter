@@ -17,8 +17,8 @@ export default ({ data }) => {
   return (
     <Layout>
       <SiteMetadata
-        title="A DnD Blog"
-        description="DnD articles that will give you inspiration for you next adventure"
+        title="AirTable Blog"
+        description="AirTable Blog"
       />
       <Home cards={cards} tags={tags} />
     </Layout>

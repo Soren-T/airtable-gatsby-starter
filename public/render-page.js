@@ -112,8 +112,8 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "Gain Inspiraton",
-    "short_name": "Gain Inspiraton",
+    "name": "AirTable Blog",
+    "short_name": "AirTable Blog",
     "start_url": "/",
     "background_color": "#fff",
     "theme_color": "#4299e1",

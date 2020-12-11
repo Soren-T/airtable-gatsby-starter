@@ -7,7 +7,7 @@ export const Cards = ({ cards }) => {
     title: "No Articles Found",
     summary: "There are no articles that match the selected filters",
     image: [
-      { url: '/map-question-mark.jpg' }
+      { url: '/airtable-logo.jpg' }
     ]
   }
   return (

@@ -1,6 +1,5 @@
 require("dotenv").config();
 const path = require(`path`);
-const { AIRTABLE_TABLE_NAME: tableName } = process.env
 
 exports.createPages = async function ({ graphql, actions }) {
   const { createPage } = actions;
@@ -43,8 +42,7 @@ exports.onCreatePage = ({ page, actions }) => {
   createPage({
     ...page,
     context: {
-      ...page.context,
-      tableName,
+      ...page.context
     },
   })
 }

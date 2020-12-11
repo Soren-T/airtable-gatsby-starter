@@ -3,7 +3,7 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     locale: "en",
-    title: "Gain Inspiration",
+    title: "AirTable Blog",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -37,8 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gain Inspiraton`,
-        short_name: `Gain Inspiraton`,
+        name: `AirTable Blog`,
+        short_name: `AirTable Blog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#4299e1`,
